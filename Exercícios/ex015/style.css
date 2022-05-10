@@ -1,0 +1,12 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+h1 {
+    color:cornflowerblue;
+    text-align: center;
+}
+p {
+    color:rgb(211, 74, 149);
+    text-align: justify;
+}

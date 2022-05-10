@@ -1,0 +1,76 @@
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #305E59;
+    padding: 0px 100px 0px 100px
+}
+
+header {
+    text-align: center;
+    background-color: #5F7573;
+    margin: 10px;
+    padding: 2px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color: #acd4d2;
+    text-shadow: 3px 3px 5px black;
+}
+
+nav {
+    text-align: center;    
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+nav > a:hover {
+    color: #67C9BE;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    color: #305E59;
+    text-shadow: 2px 2px 4px  #657D7A;
+    background-color: #acd4d2;
+    box-shadow: 5px 3px 7px 1px #305e597c;
+    text-indent: 20px;
+}
+main {
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+}
+
+section {
+    background-color: #dbe9e7;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px #305e597c;
+    padding: 25px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+footer {
+    color: #54b8ac;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+    background-color: #5F7573;
+    margin: 10px;
+    padding: 5px;
+}
+footer > p {
+    margin: 0px
+}
+.destaque {
+    color: #67C9BE;
+    font-weight: bolder;
+}
+.imagem {
+    text-align: center;
+}

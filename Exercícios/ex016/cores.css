@@ -1,0 +1,29 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+body {
+    background-image: linear-gradient(to right, #D2C5A9, #94735B);
+}
+p {
+    text-align: justify;
+    color: #94735B;
+}
+ul {
+    color: #94735B;
+}
+main{
+    background-color: white;
+    width: 800px;
+    padding: 10px; /* Deixa uma margem branca entre texto e o restante */
+    margin: auto; /* Pra que ele alinhe independente do tamanho da janela */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 5px 5px 15px #7c4545
+}
+h1 {
+    text-align: center;
+    color:#3F826D;
+    text-shadow: 1px 1px 2px #22493d;
+}
+h2 {
+    color: #205A75;
+}

@@ -1,0 +1,40 @@
+main {
+    background-color: white;
+    width: 1200px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #5F7573;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:#63C2B7;
+    background-color:#5F7573;
+}
+
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #305E59;
+}
+
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color:#305E59;
+    font-weight: bold;
+}
+div:hover {
+    background-color: #C8F7F1;
+    color: #305E59;
+    width: 700px;
+}
+
+.destaque {
+    color: #63C2B7;
+    font-weight: bold;
+}

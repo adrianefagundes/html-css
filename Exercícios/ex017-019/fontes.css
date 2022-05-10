@@ -1,0 +1,30 @@
+* {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #5F7A77;
+} 
+
+main {
+    background-color: white;
+    width: 1200px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #19756A;
+}
+h1 {
+font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+   text-align: center; 
+   font-weight: 300;
+   color: #27BAA9;
+   text-shadow: #19756A;
+}
+h3 {
+    color: #F5C91B;
+    font-weight:bolder;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}

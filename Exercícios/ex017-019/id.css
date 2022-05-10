@@ -1,0 +1,38 @@
+* {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #5F7A77;
+} 
+
+main {
+    background-color: white;
+    width: 1200px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #19756A;
+}
+h1#titulo {
+font-family: 'Libre Baskerville', Arial, Helvetica, sans-serif;
+background-color:#305E59;
+   text-align: center; 
+   font-weight: 300;
+   color: #74E3D6;
+   text-shadow: #19756A
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+.importante {
+    color: #19756A;
+    font-weight: 600;
+}
+.destaque {
+    color: #DE652F;
+    font-weight: bolder;
+}
+.subtitulos {
+    background-color: #ADDED8;
+}

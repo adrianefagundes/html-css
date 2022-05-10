@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <link rel="stylesheet" href="caixa01.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@100;200;300;400&display=swap');
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Estudando caixa box-level</h1>
+        <p class="box">Parágrafos e h1-h6 são exemplos de box-level.<br>
+        Já os <a href=#>links</a> são exemplos de caixas do tipo inline.</p>
+        <p>No Google Chrome é possível "inspecionar" a página e abrir o <span class="destaque">dev-tools</span>, que mostra o modelo de caixa. Dentro dessa dev-tools você consegue personalizar as configurações padrão dos blocos do box-level:</p>
+        <img src="Imagem/dev-tools.jpg" alt="dev-tools do Google Chrome">
+        <p>A dev-tool não altera o arquivo original, mas pode ser útil para que você possa mexer nos box-level e encontrar as melhores configurações para então aplicá-las ao seu projeto. Funciona como uma preview do estilo na sua página.</p>
+        <h2>Utilizando SHORTHAND</h2>
+        <p>Ao configurar o <span class="destaque">padding</span> é possível colocar as medidas em um único comando, sem especificar top, right, bottom, left. Porém, como todo shorthand, ele deve seguir sempre essa sequência. <br>
+        Se os valores forem todos iguais, basta informar uma vez só.</p>
+        <p><span class="importante">IMPORTANTE!</span> Se forem informados dois valores, o primeiro será aplicado para TOP e BOTTOM e o segundo para RIGHT e LEFT.</p>
+    </main>
+</body>
+</html>

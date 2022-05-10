@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho e estilos de fonte</title>
+    <link rel="stylesheet" href="fontes.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@100;200;300;400&display=swap');
+    </style>
+</head>  
+<body>
+    <main>
+    <h1>Sobre tamanho e estilo de fontes</h1>
+    <h2>Tipo de fontes</h2>
+    <p>Para pegar fontes externas existem algumas possibilidades. Com o <strong>@import</strong> é possível copiar urls de sites como Google Fonts e utilizar a fonte escolhida no seu site. <br>
+    Com CSS podemos optar pelo uso das fontes, sejam elas internas ou externas e adaptá-la (se a fonte permitir) da forma que for necessária a partir de comandos de weight, style, text-decoration, size.<br>
+    Também é possível utilizar um SHORTHAND, que significa utilizar o comando "font:" para adicionar todos ou parte desses estilos citados acima em uma única linha.</p>
+    <h3>IMPORTANTE!</h3> 
+    <p style="color: #A88C1B;">Para utilizar o SHORTHAND deve-se sempre respeitar a sequência: <strong>style, weight, size, family</strong></p>
+    <p>É importante ressaltar que o @import é utilizado dentro da página HTML, mesmo que a folha de estilo esteja fora dele.</p>
+    <h2>Sobre tamanho de fontes</h2>
+    <p>Existem diversas formas de alterar o tamanho de uma fonte no seu código CSS, basta saber quais formas existem e entender qual é a mais apropriada para o tipo de dispositivo onde seu site será apresentado:</p>
+        <ul>
+        <h4>Medidas Absolutas</h4>
+        <li>cm</li>
+        <li>mm</li>
+        <li>in</li>
+        <li><strong>px</strong></li>
+        <li>pt</li>
+        <li>pc</li>
+        <h4>Medidas Relativas</h4>
+        <li><strong>em</strong></li>
+        <li>ex</li>
+        <li>rem</li>
+        <li>vw</li>
+        <li>vh</li>
+        <li>%</li>
+    </ul>
+    </main>
+</body>
+</html>

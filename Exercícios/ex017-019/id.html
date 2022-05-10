@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores personalizados</title>
+    <link rel="stylesheet" href="id.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@100;200;300;400&display=swap');
+    </style>
+</head>
+<body>
+    <main>
+     <h1 id="titulo">Utilizando Seletores Personalizados!</h1>
+     <h2 class="subtitulos">Utilizando id</h2>
+     <p>id é um atributo que permite que você personalize sua tag. Na página HTML será colocado o id dentro da tag que você deseja personalizar juntamente com o nome dado a ela.<br> 
+     Exemplo: &lt;h1 id="nome"&gt;</p>
+     <p class="importante">É importante lembrar que: no CSS o id se transforma em #</p>
+     <h2 class="subtitulos">Utilizando class</h2>
+     <p>Porém, o id é um atributo de uso ÚNICO, o que quer dizer que você não pode utilizar a mesma personalização para outras linhas utilizando a mesma id. Para isso existe o atributo class, que funciona da mesma forma que a id, porém <span class="destaque">permite que você aplique a mesma personalização em mais de uma tag.</span><br>
+    Também é possível utilizar mais de uma class por tag, separando-as por um espaço: &lt;h1 class="nome1 nome2"&lt;h1&gt;</p>
+    <p class="importante">É importante lembrar que: no CSS o class se transforma em .</p>   
+    <h2 class="subtitulos">Utilizando &lt;span&gt;</h2>
+    <p>O span é utilizado para que você tenha a liberdade de utilizar uma class em qualquer ponto do seu texto, sem aplicar o estilo a toda a tag. Foi isso que fiz no texto acima, que está destacado em negrito e laranja.</p>
+    </main>
+    
+</body>
+</html>
