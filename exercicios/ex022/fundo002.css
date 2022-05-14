@@ -1,0 +1,25 @@
+:root {
+    --azul-escuro: #01303F;
+    --azul: #1D5973;
+    --azul-claro: #4B738C;
+    --verde-escuro: #072823;
+    --verde: #224B39;
+    --verde-claro: #5E755C;
+}
+
+div.bloco {
+    background-image: url(imagens/wallpaper002.jpg);
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin:10px;
+}
+div#q1 {
+    background-position: left top;
+}
+div#q2 {
+    background-position: right bottom;
+}
+div#q3 {
+    background-position: center center;
+}

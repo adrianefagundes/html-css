@@ -1,0 +1,30 @@
+:root {
+    --azul-escuro: #01303F;
+    --azul: #1D5973;
+    --azul-claro: #4B738C;
+    --verde-escuro: #072823;
+    --verde: #224B39;
+    --verde-claro: #5E755C;
+}
+
+body {
+    background-image: url(imagens/wallpaper006.jpg);
+}
+
+div.quadrado {
+    background-color: #7792a359;
+    display: inline-block;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+div#q1 {
+    background-color: #1D5973;
+}
+div#q2 {
+    background-image: url(imagens/pattern004.png);
+}
+div#q3 {
+    background-image: url(imagens/pattern003.png);
+}
