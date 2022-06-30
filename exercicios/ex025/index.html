@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .flex {
+            margin: 0;
+            padding: 0;
+            display: flex; /* Iniciador de criação de um flex container */
+            list-style: none;
+           /* max-width: 300px; se quiser que as duas rows fiquem uma abaixo da outra */
+        }
+
+        .flexitem {
+            background-color: aqua;
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .row {
+            flex-direction: row;
+        }
+
+        .rowreverse {
+            flex-direction: row-reverse;
+        }
+
+        .rowreverse li {
+            background-color: brown;
+            color: white;
+        }
+
+        .column {
+            flex-direction: column;
+            float: left;
+        }
+
+        .column li {
+            background-color: darkkhaki;
+        }
+
+        .columnreverse {
+            flex-direction: column-reverse;
+            float: right; /* muito interessante esse comando */
+        }
+
+        .columnreverse li {
+            background-color: chocolate;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="flex row">
+        <li class="flexitem">1</li>
+        <li class="flexitem">2</li>
+        <li class="flexitem">3</li>
+        <li class="flexitem">4</li>
+        <li class="flexitem">5</li>
+    </ul>
+
+    <ul class="flex rowreverse">
+        <li class="flexitem">1</li>
+        <li class="flexitem">2</li>
+        <li class="flexitem">3</li>
+        <li class="flexitem">4</li>
+        <li class="flexitem">5</li>
+    </ul>
+
+    <ul class="flex column">
+        <li class="flexitem">1</li>
+        <li class="flexitem">2</li>
+        <li class="flexitem">3</li>
+        <li class="flexitem">4</li>
+        <li class="flexitem">5</li>
+    </ul>
+
+    <ul class="flex columnreverse">
+        <li class="flexitem">1</li>
+        <li class="flexitem">2</li>
+        <li class="flexitem">3</li>
+        <li class="flexitem">4</li>
+        <li class="flexitem">5</li>
+    </ul>
+</body>
+</html>
