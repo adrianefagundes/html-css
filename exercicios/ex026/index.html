@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Wrap</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>flex wrap: quebra de linha</h1>
+    <main>
+        <h2>no wrap</h2>
+        <div class="flex">
+            <div class="item blue">1</div>
+            <div class="item orange">2</div>
+            <div class="item green">3</div>
+        </div>
+        <h3>O que acontece se adicionamos mais elementos com o no wrap ativo?</h3>
+        <div class="flex">
+            <div class="item blue">1</div>
+            <div class="item orange">2</div>
+            <div class="item green">3</div>
+            <div class="item blue">1</div>
+            <div class="item orange">2</div>
+            <div class="item green">3</div>
+            <div class="item blue">1</div>
+            <div class="item orange">2</div>
+            <div class="item green">3</div>
+        </div>
+        <p>O no wrap permite que os elementos não extrapolem o tamanho máximo estabelecido no container. Porém, quando adicionados muitos elementos, estes podem perder suas características para se ajustas no tamanho permitido.</p>
+        <p class="obs">Obs: Se os elementos tiverem estabelecidos um tamanho mínimo, haverá o "vazamento" do conteúdo, como no exemplo abaixo.</p>
+        <div class="flex">
+            <div class="itemobs grayobs">1</div>
+            <div class="itemobs grayobs">2</div>
+            <div class="itemobs grayobs">3</div>
+            <div class="itemobs grayobs">1</div>
+            <div class="itemobs grayobs">2</div>
+            <div class="itemobs grayobs">3</div>
+            <div class="itemobs grayobs">1</div>
+            <div class="itemobs grayobs">2</div>
+            <div class="itemobs grayobs">3</div>
+            <div class="itemobs grayobs">1</div>
+            <div class="itemobs grayobs">2</div>
+            <div class="itemobs grayobs">3</div>
+    </div>
+    <h2>wrap</h2>
+    <div class="flex wrap">
+        <div class="item blue">1</div>
+        <div class="item orange">2</div>
+        <div class="item green">3</div>
+        <div class="item blue">1</div>
+        <div class="item orange">2</div>
+        <div class="item green">3</div>
+        <div class="item blue">1</div>
+        <div class="item orange">2</div>
+        <div class="item green">3</div>
+    </div>
+        <p>Quando adicionamos o <strong>flex-wrap: wrap</strong> definimos a quebra de linha que proporciona o arranjo dos elementos dentro do limite estipulado para o container.</p>
+</main>
+</body>
+</html>
